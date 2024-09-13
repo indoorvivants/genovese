@@ -127,7 +127,7 @@ class ScalafmtTest extends FunSuite:
     end fitness
 
     val trainingConfig = TrainingConfig(
-      populationSize = 100,
+      populationSize = 25,
       mutationRate = NormalisedFloat(0.8f),
       steps = 100,
       random = scala.util.Random(80085L),
