@@ -67,7 +67,6 @@ class Train[T](
           )
         )
 
-        evaluated = evaluate(population)
         events.emitWithData(EpochFinished, step)
       end for
 
