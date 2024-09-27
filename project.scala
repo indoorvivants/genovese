@@ -1,7 +1,7 @@
 //> using dep "com.lihaoyi::pprint::0.9.0"
 //> using dep "com.indoorvivants::opaque-newtypes::0.1.0"
 //> using option -Wunused:all -deprecation
-//> using scala 3.3.4
+//> using scala 3.5.1
 //> using test.dep "org.scalameta::munit-scalacheck::1.0.0"
 //> using test.dep "org.scalameta::munit::1.0.2"
 //> using test.dep "org.scalameta:scalafmt-core_2.13:3.8.3"

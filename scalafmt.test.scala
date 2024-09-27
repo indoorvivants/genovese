@@ -6,7 +6,6 @@ import org.scalafmt.config.*
 import org.scalafmt.config.Docstrings.*
 import java.util.concurrent.ConcurrentHashMap
 import org.scalafmt.config.Indents.FewerBraces
-import scala.language.experimental.namedTuples
 
 given Featureful[Oneline] = Featureful.derive[Oneline](FieldConfig.None)
 given Featureful[Wrap]    = Featureful.derive[Wrap](FieldConfig.None)
